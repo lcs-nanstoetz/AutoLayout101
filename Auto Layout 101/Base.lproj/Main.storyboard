@@ -22,8 +22,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="22i-en-w2K" userLabel="BottomContainer">
                                 <rect key="frame" x="0.0" y="752" width="375" height="60"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Auto Layout 101 - We ❤ Swift" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="Dg1-Ba-753" userLabel="TitleLabel">
-                                        <rect key="frame" x="8" y="14" width="369.5" height="33.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auto Layout 101 - We ❤ Swift" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="Dg1-Ba-753" userLabel="TitleLabel">
+                                        <rect key="frame" x="14" y="14" width="347" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="JZY-cr-ZYO"/>
                                         </constraints>
@@ -35,6 +35,9 @@
                                 <color key="backgroundColor" red="0.88321474357295704" green="0.8866600537799163" blue="0.91372549020000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="Ouu-GF-rtZ"/>
+                                    <constraint firstItem="Dg1-Ba-753" firstAttribute="top" secondItem="22i-en-w2K" secondAttribute="top" constant="14" id="R1C-Gt-WiY"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Dg1-Ba-753" secondAttribute="trailing" constant="14" id="REr-Zj-Bxc"/>
+                                    <constraint firstItem="Dg1-Ba-753" firstAttribute="centerX" secondItem="22i-en-w2K" secondAttribute="centerX" id="c95-jJ-5RT"/>
                                 </constraints>
                             </view>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="We" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2F-mh-jwf">
